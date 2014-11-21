@@ -1,6 +1,8 @@
 *.class
 *.pyc
 *.pyo
+.project
+.settings
 user_guide
 estaticos/images
 db/cuestionario_cuestionario_status.sql
