@@ -1,0 +1,10 @@
+*.class
+*.pyc
+*.pyo
+user_guide
+estaticos/images
+db/cuestionario_cuestionario_status.sql
+db/cuestionario_modulos.sql
+db/cuestionario_preguntas.sql
+db/cuestionario_respuestas.sql
+db/cuestionario_usuarios.sql
