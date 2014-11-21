@@ -17,8 +17,8 @@ class Cuestionario extends CI_Controller
 	
 	public function index()
 	{
-		$session_id = $this -> session -> userdata('logged_in'); // Variable de sesión iniciada
-		$data['title'] = 'Bienvenidos al cuestionario Huawei';
+		$session_id = $this -> session -> userdata('logged_in'); // Variable de sesión iniciada 
+		$data['title'] = 'Bienvenidos al cuestionario XXXX';
 		$data['solotest'] 	= 1;
 		$data['nosession'] = '';
         $this -> load -> helper('form'); // Carga de helper para formulario (inputs, etc)
@@ -57,7 +57,7 @@ class Cuestionario extends CI_Controller
 	{
 		// echo 'Lobby';
 		$session_id = $this -> session -> userdata('logged_in'); // Variable de sesión iniciada
-		$data['title'] = 'Bienvenidos al cuestionario Huawei';
+		$data['title'] = 'Bienvenidos al cuestionario XXXX';
 		$data['nosession'] = '';
 		$data['solotest'] 	= 0;
         $this -> load -> helper('form'); // Carga de helper para formulario (inputs, etc)
@@ -120,7 +120,7 @@ class Cuestionario extends CI_Controller
 		$this -> load -> model('elcuestionario');
 		$session_id = $this -> session -> userdata('logged_in'); // Variable de sesión iniciada
 		
-		$data['title'] = 'CUESTIONARIO HUAWEI';
+		$data['title'] = 'CUESTIONARIO XXXXX';
 		$data['nosession'] = '';
         $this -> load -> helper('form'); // Carga de helper para formulario (inputs, etc)
         $data['tiempo'] = '30:00';
