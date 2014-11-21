@@ -50,9 +50,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'cuestionario';
+$db['default']['username'] = 'elNombreDeUsuario';
+$db['default']['password'] = 'ElPassword';
+$db['default']['database'] = 'LaBaseDeDatos';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
